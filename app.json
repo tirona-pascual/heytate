@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "The Academy Marketing",
+    "slug": "theacademy-marketing",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0F1C"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.heytate"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "expo": {
+      "plugins": [
+        [
+          "expo-router",
+          "expo-speech-recognition",
+          "@react-native-voice/voice",
+          {
+            "microphonePermission": "Allow $(PRODUCT_NAME) to access the microphone"
+          }
+        ]
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0dd5ea0b-e475-46e5-8880-88d4be825a80"
+      }
+    }
+  }
+}
