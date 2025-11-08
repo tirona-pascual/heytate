@@ -49,6 +49,6 @@
     "updates": {
       "url": "https://u.expo.dev/0dd5ea0b-e475-46e5-8880-88d4be825a80"
     },
-    "entryPoint": "expo-router/entry"
+    "entryPoint": "expo-router/entry-point"
   }
 }
